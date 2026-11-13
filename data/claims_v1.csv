@@ -1,0 +1,13 @@
+id,drug,claim,label,evidence
+1,ibuprofen,"Adults taking over-the-counter ibuprofen should not exceed 1,200 mg in 24 hours unless directed by a healthcare professional.",not_found,Label says ‘do not exceed 6 tablets in 24 hours’ but never states mg
+2,ibuprofen,"Adults can typically take 200–400 mg of ibuprofen every 4–6 hours as needed, following the product label.",not_found,Label says ‘1 tablet every 4 to 6 hours’ but gives no mg amount
+3,ibuprofen,Ibuprofen should be taken with food or milk to help reduce stomach irritation.,supported,take with food or milk if stomach upset occurs
+4,ibuprofen,"Ibuprofen can cause stomach ulcers and serious gastrointestinal bleeding, even without warning symptoms.",supported,may cause severe stomach bleeding
+5,ibuprofen,"Ibuprofen can increase the risk of heart attack and stroke, particularly with higher doses or prolonged use.
+",supported,"NSAIDs increase the risk of heart attack, heart failure, and stroke; higher if you use more than directed or for longer than directed"
+6,ibuprofen,"Ibuprofen can cause kidney damage, especially in people with existing kidney disease or dehydration.
+",not_found,Only says to ask a doctor if you have kidney disease; nothing about kidney damage
+7,ibuprofen,Ibuprofen can interfere with the heart-protective antiplatelet effect of low-dose aspirin when taken at certain times.,supported,ibuprofen may decrease this benefit of aspirin
+8,ibuprofen,Combining ibuprofen with blood thinners such as warfarin can increase the risk of serious bleeding.,supported,Bleeding chance is higher if you take a blood thinning (anticoagulant) drug
+9,ibuprofen,"Ibuprofen should generally be avoided from 20 weeks of pregnancy unless specifically advised by a healthcare professional, and avoided at 30 weeks or later.",supported,especially important not to use ibuprofen at 20 weeks or later in pregnancy
+10,ibuprofen,"Ibuprofen dosing for children is based on the child’s weight and age, and adult doses should not be given to children.",not_found,Only says children under 12 years: ask a doctor; nothing about weight-based dosing
